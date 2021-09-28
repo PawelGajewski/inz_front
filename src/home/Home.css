@@ -1,0 +1,90 @@
+  
+  .parent {
+    display: flex;
+  }
+  .sidebar {
+    width: 12em;
+    min-height: 50em;
+    background: lightgray;
+  }
+  .main {
+    flex: 1;
+    background: whitesmoke;
+    padding-left: 1em;
+  }
+  
+
+  .button {
+    height: 12%;
+    width: 16%;
+    background-color: #4CAF50; /* Green */
+    border-radius: 10px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 1em;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    margin-left: 2em;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    margin-left: 2em;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+    margin-left: 2em;
+  }
+  
+  .button3:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    margin-left: 2em;
+  }
+  
+  .button4:hover {background-color: #e7e7e7;}
+  
+  .button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    margin-left: 2em;
+  }
+  
+  .button5:hover {
+    background-color: #555555;
+    color: white;
+  }

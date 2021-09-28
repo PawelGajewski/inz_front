@@ -1,0 +1,96 @@
+.job_main {
+    width: 40%;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+.amount_main {
+    width: 2%;
+    border: 2px solid black;
+}
+
+.prize_main {
+    width: 8%;
+    border: 2px solid black;
+}
+
+.job {
+    width: 40%;
+    border: 2px solid silver;
+    text-align: left;
+    padding-left: 3%;
+}
+
+.amount {
+    width: 3%;
+    border: 2px solid silver;
+}
+
+.prize {
+    width: 8%;
+    border: 2px solid silver;
+    background-color: silver;
+}
+
+.job_list {
+    width: 99%;
+}
+
+.faktura {
+    width: 200px;
+}
+
+.titles {
+    width: 99%;
+}
+
+.main {
+    margin-top: 3%;
+}
+
+.back_button {
+    position: absolute;
+}
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+  }
+
+.summary {
+    margin-left: 70%;
+}
+
+
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

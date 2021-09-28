@@ -1,8 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Router, Route, browserHistory } from 'react-router'
 import './index.css';
 import App from './App';
+import Logowanie from './logowanie/logowanie';
+import Rejestracja from './rejestracja/rejestracja'
 import * as serviceWorker from './serviceWorker';
+
+
+// ReactDOM.render((
+//     <Router history={browserHistory}>
+//       <Route path="/" component={Rejestracja} />
+//     </Router>
+//   ), document.getElementById('app'));
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -10,3 +21,4 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+

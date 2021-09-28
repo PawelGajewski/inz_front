@@ -1,0 +1,144 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.title {
+    text-align: center;
+}
+
+#right {
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 15px solid red;
+  }
+
+  #right:hover {
+    width: 0;
+    height: 0;
+    border-top: 8px solid green;
+    border-bottom: 8px solid green;
+    border-left: 18px solid green;
+  }
+
+  #left {
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-right: 15px solid red;
+  }
+
+  #left:hover {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 18px solid red;
+  }
+
+
+  a {
+    color: black;
+    text-decoration: none;
+}
+
+.link {
+    color: black;
+  }
+
+
+  .car_list {
+      position: relative;
+      left: 50;
+      border-style: solid;
+      border-width: 2px;
+      margin: 3px;
+      border-radius: 10px;
+  }
+
+  .car_list:hover {
+    position: relative;
+    left: 50;
+    background-color: lightyellow;
+    border-style: solid;
+    border-width: 4px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.main {
+    text-align: center;
+}
+
+.addbutton {
+  background-color: blue;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  color: black;
+}
+
+.addbutton:hover {
+  background-color: darkblue;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  color: white;
+}
+
+.backbutton {
+  margin-right: 1%;
+  margin-top: 2%;
+  background-color: green;
+  border-radius: 5px;
+  width: 10%;
+  height: 6%;
+  color: black;
+}
+
+.backbutton:hover {
+  background-color: darkgreen;
+  border-radius: 5px;
+  width: 10%;
+  height: 6%;
+  color: white;
+}
+
+.button_box {
+  width: auto;
+  height: auto;
+}
+
+.edit_button {
+  margin-right: 1%;
+  margin-top: 2%;
+  border: none;
+  background-color: blue;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  color: black;
+}
+
+.edit_button:hover {
+  background-color: darkblue;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  color: white;
+}
+
+input[type='text'] {
+  border: none;
+  width: 20%;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+.car {
+  border: 2px solid black;
+}

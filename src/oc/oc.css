@@ -1,0 +1,17 @@
+input[type=number] {
+    height: 5vh;
+    width: 7vh;
+    font-size: 4vh;
+    border: none;
+    background-color: transparent;
+
+}
+
+.extend {
+    background-color: tomato;
+    border: none;
+    border-radius: 10%;
+    width: 10vh;
+    height: 5vh;
+    margin-top: 2vh;
+}

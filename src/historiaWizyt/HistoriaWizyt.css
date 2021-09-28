@@ -1,0 +1,82 @@
+.selectList {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.back_button {
+    position: fixed;
+    left: 50%;
+    background-color: green;
+    border-radius: 5px;
+    width: 10%;
+    height: 6%;
+    color: black;
+}
+
+.back_button:hover {
+    position: fixed;
+    left: 50%;
+    background-color: darkgreen;
+    border-radius: 5px;
+    width: 10%;
+    height: 6%;
+    color: white;
+}
+
+.button_historia  {
+        width: 10%;
+        height: 3%;
+        background-color: gray;
+        color: white;
+        padding: 10px 10px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+       position: absolute;
+      }
+
+.car_list {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+}
+
+
+.details {
+    border: none;
+    color: white;
+    background-color: blue;
+    width: 10vh;
+    height: 4vh;
+    border-radius: 5px;
+}
+
+.details:hover {
+    border: none;
+    color: whitesmoke;
+    background-color: darkblue;
+    width: 10vh;
+    height: 4vh;
+    border-radius: 5px;
+}
+
+
+.car_info {
+    background-color: rgb(221, 219, 219);
+}
+

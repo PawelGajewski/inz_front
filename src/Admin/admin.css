@@ -1,0 +1,113 @@
+.end_job {
+    width: auto;
+    height: auto;
+    font-size: 3vh;
+    margin-left: 5%;
+    background-color: red;
+    border-radius: 6px;
+
+}
+
+.end_job:hover {
+    color: white;
+    background-color: darkred;
+}
+
+.add_part {
+    width: auto;
+    height: auto;
+    font-size: 3vh;
+    background-color: green;
+    border-radius: 6px;
+}
+
+.add_part:hover {
+    color: white;
+    background-color: darkgreen;
+}
+
+.functions {
+    width: 15%;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.addform {
+    position: fixed;
+    margin-top: 40%;
+    margin-left: 30%;
+    /* border: 2px solid black; */
+    width: auto;
+}
+
+h2 {
+    white-space: nowrap;
+}
+
+.add {
+    display: inline;
+}
+
+.main {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.details {
+    border-radius: 5px 5px 5px 5px;
+    background-color: red;
+}
+
+.back {
+    border-radius: 5px 5px 5px 5px;
+    background-color: blue;
+    border: none;
+    width: 8em;
+    height: 3em;
+    margin-top: 3em;
+    margin-right: 2px;
+
+}
+
+.back:hover {
+    border-radius: 5px 5px 5px 5px;
+    background-color: darkblue;
+    border: none;
+    width: 8em;
+    height: 3em;
+    margin-top: 3em;
+}
+
+.user_list {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini {
+    position: absolute;
+    z-index: 99999;
+}
+
+.reject {
+    border-radius: 5px 5px 5px 5px;
+    background-color: red;
+    border: none;
+    width: 6em;
+    height: 2.4em;
+    margin-top: 3em;
+    margin-left: 2;
+}
+
+.reject:hover {
+    border-radius: 5px 5px 5px 5px;
+    background-color: darkred;
+    border: none;
+    width: 6em;
+    height: 2.4em;
+    margin-top: 3em;
+}
+
+.right_info{
+    position: fixed;
+}

@@ -1,0 +1,27 @@
+ .ulsidebar {
+    /* list-style-type: none; */
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: lightgray;
+    /* display: block; */
+  }
+  
+ .lisidebar {
+  position: relative;
+  width: 95%;
+  color: white;
+  background-color: #cc0000;
+}
+
+.lisidebar:hover {
+    background-color: white;
+    color: lightgreen;
+    width: 110%;
+    position: relative;
+  } 
+
+.logo {
+  width: 100%;
+  height: 100%;
+}

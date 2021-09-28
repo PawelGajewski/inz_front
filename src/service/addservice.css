@@ -1,0 +1,75 @@
+.short_cars {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.short_cars_title {
+    background-color: rgb(255, 52, 52);
+}
+
+.car_list {
+/* background-color: red; */
+border: none;
+}
+
+.car_list:hover {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-weight: bold; 
+ }
+
+.car_info {
+    border: none;
+}
+
+input[type=date] {
+    border-radius: 4px;
+}
+
+textarea {
+    max-width: 25%;
+    max-height: 200px;
+    border-radius: 4px; 
+}
+
+.confirm {
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(255, 95, 95)
+}
+
+.confirm:hover {
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    color: white;
+    height: 40px;
+    background-color: rgb(170, 5, 5);
+}
+
+.backbutton {
+    margin-top: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    background-color: green;
+}
+
+.backbutton:hover {
+    margin-top: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: darkgreen;
+}
